@@ -1,0 +1,43 @@
+html,body {
+    font-family: 'Roboto';
+    height: 100%;
+    width: 100%;
+    background-image: url(cal.jpg);
+    
+}
+
+.button{
+font-size: 10px;
+font-family: serif;
+font-weight: bold;
+width: 35px;
+padding: 10px;
+margin:1px;
+border:3px solid black;
+border-radius: 15px;
+cursor:pointer;
+background-color: rgb(218, 218, 218);
+}
+
+.container{
+    border: 3px solid black;
+    height: 380px;
+    width: 300px;
+    background-color: lightgreen;
+} 
+
+.row{
+  margin: 8px 0px;
+}
+
+.row input{
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px 10px;
+  width: 250px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: right;
+  background-color: lightcyan;
+  border: 4px solid black;
+}
